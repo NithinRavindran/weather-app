@@ -1,0 +1,13 @@
+body{
+    overflow: hidden;
+    background-image: url("./images/download.png");
+}
+#searchbtn{
+    width:100%
+}
+.content{
+    position: relative;
+}
+.data{
+    font-size: 15px;
+}
