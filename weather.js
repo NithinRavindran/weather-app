@@ -15,7 +15,7 @@ function displaydata(weatherdetail) {
   feels = Math.round(weatherdetail.main.feels_like - 273.15);
 
 
-  weatherdata.innerHTML = `<div class="row mt-5">
+  weatherdata.innerHTML = `<div class="row mt-1">
   <div class="card">
     <div class="card-body">
     <h5 style="color:#07f2f2">Weather App</h5>
