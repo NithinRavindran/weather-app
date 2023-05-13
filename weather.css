@@ -1,13 +1,16 @@
-body{
+body {
     overflow: hidden;
     background-image: url("./images/download.png");
 }
-#searchbtn{
-    width:100%
+
+#searchbtn {
+    width: 100%
 }
-.content{
+
+.content {
     position: relative;
 }
-.data{
+
+.data {
     font-size: 15px;
 }

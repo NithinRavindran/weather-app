@@ -14,22 +14,23 @@ function displaydata(weatherdetail) {
   pressure = weatherdetail.main.pressure
   feels = Math.round(weatherdetail.main.feels_like - 273.15);
 
-  weatherdata.innerHTML = `<div class="row" style="margin-left:8%;margin-top:5%">
+
+  weatherdata.innerHTML = `<div class="row mt-5">
   <div class="card">
-    <div class="card-body p-5">
-    <h4 style="color:#07f2f2">Weather App</h4>
+    <div class="card-body">
+    <h5 style="color:#07f2f2">Weather App</h5>
     <hr>
-    <h5 class="card-title">${temp}°C</h5>
-    <h5 class="card-title">${des}°C</h5>
-      <h5 class="card-title">${city},${country}</h5>
+    <h5 class="card-title"><i class="fa-solid fa-temperature-three-quarters"></i> ${temp}°C</h5>
+    <h5 class="card-title"><i class="fa-solid fa-cloud"></i> ${des}°C</h5>
+      <h5 class="card-title"><i class="fa-solid fa-location-dot"></i> ${city}, ${country}</h5>
       <h5 class="card-title"></h5>
       <div class="row">
       <div class="col-6 mt-5" style="border:1px black solid">
-      <h5>${feels}°C</h5>
+      <h5><i class="fa-solid fa-drum-steelpan"></i> ${feels}°C</h5>
       <h6>Feels Like</h6>
       </div>
       <div class="col-6 mt-5" style="border:1px black solid">
-      <h5>${humidity}°C</h5>
+      <h5><i class="fa-solid fa-droplet"></i> ${humidity}°C</h5>
       <h6>Humidity</h6>
       </div></div>
       </div>
